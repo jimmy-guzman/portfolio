@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jimmy Guzman-Portfolio</title>
+
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-toggleable-sm navbar-inverse bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <a class="navbar-brand" href="#">JimmyGuzman</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav nav-bar-text">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--navbar end-->
+        <!--top section-->
+        <div class="header-content container-fluid" id="home">
+
+            <h1>JIMMY GUZMAN</h1>
+
+            <p>Aspiring Full Stack Web Developer</p>
+        </div>
+        <table id="wrapper">
+            <tr>
+                <td>
+                    <a href="#section1" class="btn btn-circle button-circle">
+                        <i class="fa  fa-caret-down"></i>
+                    </a>
+                </td>
+        </table>
+        <!--top section end-->
+    </header>
+
+
+    <!--section1: about-->
+    <div id="section1" class="about container-fluid">
+
+        <div class="row">
+            <div class="col-sm-8">
+
+                <h1 class="title-text"> About Me: </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="http://www.forum.awid.org/forum16/sites/default/files/styles/square_500/public/default-person-512.png?itok=R0tTzxJ4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!--section1: about end-->
+    <!--section2: skills-->
+    <div id="section2" class="skills">
+        <h1> Skills: </h1>
+        <div class="row pad">
+            <div class="col-6 col-sm-3">
+                <img src="https://image.freepik.com/free-icon/html-5-logo_318-40745.jpg" class=img-fluid>
+                <div class="caption text-center"> HTML</div>
+
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="https://image.freepik.com/free-icon/html-3-logo_318-54689.jpg" class="img-fluid">
+                <div class="caption text-center"> CSS</div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="https://cdn1.iconfinder.com/data/icons/simple-icons/2048/bootstrap-2048-black.png" class="img-fluid">
+                <div class="caption text-center"> Bootstrap</div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/jquery-512.png" class="img-fluid">
+                <div class="caption text-center"> jQuery</div>
+            </div>
+        </div>
+    </div>
+    <!--section3: portfolio-->
+    <div id="section3" class="portfolio">
+
+        <h1 class="pad-bottom"> Portfolio: </h1>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="pad black-bg">
+                    <a target="_blank" href="https://codepen.io/jimmy-guzman/full/dzvqeG/"> <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1410508.dzvqeG.846fd346-ba26-4131-871c-af570eda7f23.png" alt="Tribute Page" class="img-fluid"> </a>
+                    <h5 class="text-center"> Tribute page on Lupe Fiasco created using HTML, CSS & Bootstrap. </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center pad-bottom"> More Coming Soon </h2>
+    </div>
+    <!--section3: portfolio end-->
+    <!--section4: contact-->
+    <div class="black-bg">
+        <div id="section4" class="contact">
+            <div class="row pad">
+                <h1 class="title-text"> Contact: </h1>
+                <div class="col-sm-12 pad">
+                    <form method="POST" role="form" action="http://formspree.io/jimmyguzman.m@gmail.com">
+                        <!-- <input type="hidden" name="_next" value="//site.io/thanks.html" />-->
+                        <input type="hidden" name="_subject" value="New submission!" />
+                        <input type="text" name="_gotcha" style="display:none" />
+
+                        <div class="form-group">
+                            <label for="InputName">Your Name</label>
+                            <input type="text" class="form-control" name="name" id="InputName" placeholder="Enter Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Your Email</label>
+
+                            <input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Enter Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputMessage">Message</label>
+
+                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                        </div>
+
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+        <!--section4: contact end-->
+        <div id="section5" class="contact2">
+            <div class="row justify-content-center">
+                <div class="col-3 col-sm-1">
+                    <div>
+                        <a target="_blank" href="https://www.freecodecamp.org/jimmy-guzman"><img src="http://res.cloudinary.com/ddvpjarhr/image/upload/v1502406674/LOGOS/FCC-Logo-Cutout_slnlnf.png" class=img-fluid> </a>
+                    </div>
+                </div>
+                <div class="col-3 col-sm-1">
+                    <a target="_blank" href="https://github.com/jimmy-guzman"><img src="http://res.cloudinary.com/ddvpjarhr/image/upload/v1502406674/LOGOS/Github-Logo-Cutout_gyiquv.png" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+
+</body>
+
+</html>
